@@ -1,0 +1,96 @@
+# =========================
+# OS-specific
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+develop-eggs/
+downloads/
+wheels/
+*.manifest
+*.spec
+
+# Virtual environments
+.env
+.env.*/
+venv/
+venv*/
+ENV/
+env/
+env*/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_save
+profile_default/
+ipython_config.py
+
+# =========================
+# Bash / Shell scripting
+# =========================
+# Temporary files
+*.log
+*.out
+*.err
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Backup files
+*.old
+*.save
+*.orig
+
+# Custom runtime outputs
+output/
+tmp/
+logs/
+
+# If you generate compiled binaries from scripts
+*.exe
+*.o
+*.a
+*.so
+
+# =========================
+# Secrets
+# =========================
+*.env
+*.secret
+*.key
+*.pem
+*.crt
+
